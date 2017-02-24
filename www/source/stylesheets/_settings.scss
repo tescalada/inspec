@@ -38,7 +38,7 @@ $nav-breakpoint: 900px;
 }
 
 @mixin nav-small {
-  @media screen and (max-width: $nav-breakpoint - 1px) {
+  @media screen and (max-width: $nav-breakpoint) {
     @content;
   }
 }
@@ -54,6 +54,7 @@ $nav-breakpoint: 900px;
 	-moz-transition    : all .2s;
 	-webkit-transition : all .2s;
 	transition         : all .2s;
+  -o-transition      : all .2s;
 }
 
 //Hide/show div on mobile

@@ -10,6 +10,7 @@ a {
 
 .btn {
 	@extend               %transition;
+	-webkit-box-sizing  : border-box;
 	box-sizing          : border-box;
 	padding             : 0.6rem 1.25rem;
 	color               : $color_purple;
@@ -49,7 +50,7 @@ a {
 		}
 	}
 	//mobile
-	@media screen and (min-width: 40.063em) {
+	@media screen and (max-width: 40.063em) {
 	float: initial;
 	padding     : 0.8rem 1.6rem;
 	margin     : 0 auto;

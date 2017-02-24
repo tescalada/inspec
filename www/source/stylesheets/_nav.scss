@@ -20,11 +20,11 @@
       position: absolute;
     }
 
-    @media (min-width: 640px) and (max-width: 879px) {
+    @media screen and (min-width: 640px) and (max-width: 879px) {
       bottom: 156px;
     }
 
-    @media (min-width: 880px) {
+    @media screen and (min-width: 880px) {
       bottom: 141px;
     }
   }
@@ -85,6 +85,9 @@
 
 #main-nav-ctas {
   transition: top 0.3s ease;
+  -webkit-transition: top 0.3s ease;
+  -moz-transition: top 0.3s ease;
+  -o-transition: top 0.3s ease;
   background: $color_white;
   padding-left: 40px;
   padding-right: 40px;
