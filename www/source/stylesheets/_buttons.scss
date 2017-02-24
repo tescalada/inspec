@@ -49,7 +49,7 @@ a {
 		}
 	}
 	//mobile
-	@media only screen and (max-width: 40.063em) {
+	@media screen and (min-width: 40.063em) {
 	float: initial;
 	padding     : 0.8rem 1.6rem;
 	margin     : 0 auto;

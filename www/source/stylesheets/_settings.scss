@@ -2,7 +2,7 @@ $color_heading        : #2c2e30;
 $color_paragraph      : #69787f;
 $color_gray           : #b0bebf;
 $color_white          : white;
-$color_link           : #3ab3ce;
+$color_link           : #169eb5;
 $color_purple         : #8d66d8;
 $color_code_token     : #3bc5cc;
 $color_hr             : rgba(99,206,153,1);
@@ -28,17 +28,17 @@ $side-nav-width: 200px;
 $top-nav-height: 100px;
 $side-nav-padding-large: 10px;
 $side-nav-padding-small: 30px;
-$nav-breakpoint: 780px;
+$nav-breakpoint: 900px;
 
 
 @mixin nav-large {
-  @media (min-width: #{$nav-breakpoint}) {
+  @media screen and (min-width: #{$nav-breakpoint}) {
     @content;
   }
 }
 
 @mixin nav-small {
-  @media (max-width: $nav-breakpoint - 1px) {
+  @media screen and (max-width: $nav-breakpoint - 1px) {
     @content;
   }
 }

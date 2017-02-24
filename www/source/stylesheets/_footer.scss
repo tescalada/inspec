@@ -41,6 +41,7 @@ ul.footer--logos li {
 
 .footer--logo  {
   display        : inline-block;
+  -webkit-filter : brightness(0) invert(1);
   filter         : brightness(0) invert(1);
   vertical-align : middle;
 

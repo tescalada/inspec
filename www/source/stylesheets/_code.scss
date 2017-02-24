@@ -26,9 +26,13 @@ pre {
 // Container for pop-up code example
 
 .code-pop {
-	padding       : $percent_sm/1.5;
+	padding       : $percent_sm/2;
 	background    : $color_heading;
-	display:none; //Hide until click trigger
+	//display:none; //Hide until click trigger
+}
+
+.code-pop p {
+	margin: 0;
 }
 
 
@@ -37,7 +41,7 @@ pre {
 .code-demo {
 	color            : $color_white;
 	border           : 0;
-	background-color : initial;
+	background       : $color_heading;
 }
 
 .code-attribute {
