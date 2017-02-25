@@ -7,29 +7,26 @@ nav#main-nav
     a.main-nav--logo href="/"
       img src="/images/inspec-by-chef-logo.svg" onerror="this.src='/images/inspec-by-chef-logo.png'"
       
-    i.fa.fa-bars.main-nav--toggle.strict-right.show-for-small-only
+    i.fa.fa-bars.main-nav--toggle.strict-right.mobile-show
       
 
     ul.main-nav--links
-      li.main-nav--link.hide-docs
+      li.main-nav--link
         <a href="/tutorials" class="#{'t-purple' if current_page.url == '/tutorials'}" <span class="main-nav--link-text">Tutorials</span>
         </a>
       li.main-nav--link
         <a href="/docs" class="#{'t-purple' if current_page.url == '/docs'}" <span class="main-nav--link-text">Docs</span>
         </a>
-        span.fa.fa-angle-right.t-purple.toggle.mobile-show
-
-
-      li.main-nav--link.hide-docs
+      li.main-nav--link
         <a href="/community" class="#{'t-purple' if current_page.url == '/community'}" <span class="main-nav--link-text">Community</span>
         </a>
-      li.main-nav--link.hide-docs
+      li.main-nav--link
         a href="https://github.com/chef/inspec"
           i.fa.fa-github-alt
           span.main-nav--link-text Github
-      li.main-nav--link.mobile-hide
+      li.main-nav--link.nav-cta.hide-for-small-only
         a.btn.try-demo href="http://inspec.io/tutorial" Try the Demo
-      li.main-nav--link.hide-docs
+      li.main-nav--link.nav-cta
         a.btn href="https://downloads.chef.io/inspec" 
           i.fa.fa-cloud-download
           span.main-nav--link-text Download
